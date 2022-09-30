@@ -1,0 +1,10 @@
+version: '3'
+services:
+  xrpl-unl-decoder:
+    build: .
+    container_name: xrpl-unl-decoder
+    ports:
+      - 8081:8081
+    volumes:
+      - ".:/usr/src/app"
+    restart: unless-stopped

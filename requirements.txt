@@ -1,6 +1,10 @@
+Werkzeug==0.16.1
+flask
+flask_restplus
 base58==2.1.0
 cffi==1.14.0
 daemon==1.2
+markupsafe==2.0.1
 cryptography==3.3.2
 graphviz==0.14
 lockfile==0.12.2
